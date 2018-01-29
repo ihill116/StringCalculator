@@ -5,7 +5,6 @@ package com.ihill;
  */
 public interface StringCalculator {
 
-    int add(String numbers){
+    int add(String numbers);
 
-    }
 }
