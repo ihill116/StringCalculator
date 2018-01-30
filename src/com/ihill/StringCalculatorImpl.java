@@ -1,5 +1,6 @@
 package com.ihill;
 
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -9,9 +10,11 @@ public class StringCalculatorImpl implements StringCalculator {
     @Override
     public int add(String numbers) {
         int total=0;
+        List<String> items = Arrays.asList(numbers.split("\\s*,\\s*"));
         if(!numbers.isEmpty()) {
-
-            total+=Integer.parseInt(numbers);
+            for (int i = 0; i < items.size(); i++) {
+                total+=Integer.parseInt(items.get(i));
+            }
         }
         return total;
     }
