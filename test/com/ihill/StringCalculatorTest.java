@@ -32,5 +32,11 @@ class StringCalculatorTest {
         assertEquals(15,sc.add("1,2,3,4,5"));
         assertEquals(111111,sc.add("1,10,100,1000,10000,100000"));
 
+        //Tests for new line delimiter
+        assertEquals(0, sc.add("0\n0"));
+        assertEquals(5, sc.add("0\n5"));
+        assertEquals(5, sc.add("1\n2,2"));
+        assertEquals(50,sc.add("10\n10\n10\n10\n10"));
+
     }
 }
