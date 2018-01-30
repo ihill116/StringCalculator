@@ -10,7 +10,7 @@ public class StringCalculatorImpl implements StringCalculator {
     @Override
     public int add(String numbers) {
         int total=0;
-        List<String> items = Arrays.asList(numbers.split("\\s*,\\s*"));
+        List<String> items = Arrays.asList(numbers.split("\\s*,\\s*|\\s*\n\\s*"));
         if(!numbers.isEmpty()) {
             for (int i = 0; i < items.size(); i++) {
                 total+=Integer.parseInt(items.get(i));

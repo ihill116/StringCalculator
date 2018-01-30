@@ -4,7 +4,6 @@
     <list default="true" id="ca16a70c-5eab-4626-995b-92c05410fce4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/com/ihill/StringCalculatorImpl.java" afterPath="$PROJECT_DIR$/src/com/ihill/StringCalculatorImpl.java" />
-      <change beforePath="$PROJECT_DIR$/test/com/ihill/StringCalculatorTest.java" afterPath="$PROJECT_DIR$/test/com/ihill/StringCalculatorTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -302,7 +301,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1516979045998</updated>
-      <workItem from="1516979047580" duration="4349000" />
+      <workItem from="1516979047580" duration="4378000" />
     </task>
     <task id="LOCAL-00001" summary="+ Added test for empty String input">
       <created>1517246119343</created>
@@ -360,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517331518291</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="+ Added tests for new line as a delimiter">
+      <created>1517336872922</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1517336872922</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -396,7 +402,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4349000" />
+    <option name="totallyTimeSpent" value="4378000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1059" height="873" extended-state="0" />
@@ -445,7 +451,8 @@
     <MESSAGE value="+ Added tests for 2 numbers" />
     <MESSAGE value="+ Added implementation for inputs with two numbers, and potentially more." />
     <MESSAGE value="+ Added tests for multiple numbers, which appears to already be functioning." />
-    <option name="LAST_COMMIT_MESSAGE" value="+ Added tests for multiple numbers, which appears to already be functioning." />
+    <MESSAGE value="+ Added tests for new line as a delimiter" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ Added tests for new line as a delimiter" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
