@@ -19,5 +19,11 @@ class StringCalculatorTest {
         assertEquals(5,sc.add("5"));
         assertEquals(50, sc.add("50"));
         assertEquals(500, sc.add("500"));
+
+        //Tests for 2 numbers
+        assertEquals(0,sc.add("0,0"));
+        assertEquals(5,sc.add("0,5"));
+        assertEquals(10,sc.add("5,5"));
+        assertEquals(505,sc.add("5,500"));
     }
 }
