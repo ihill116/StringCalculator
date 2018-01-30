@@ -25,5 +25,12 @@ class StringCalculatorTest {
         assertEquals(5,sc.add("0,5"));
         assertEquals(10,sc.add("5,5"));
         assertEquals(505,sc.add("5,500"));
+
+        //Tests for an unknown amount of numbers
+        assertEquals(0,sc.add("0,0,0,0,0,0,0,0,0"));
+        assertEquals(1,sc.add("0,1,0,0,0,0,0,0,0"));
+        assertEquals(15,sc.add("1,2,3,4,5"));
+        assertEquals(111111,sc.add("1,10,100,1000,10000,100000"));
+
     }
 }
