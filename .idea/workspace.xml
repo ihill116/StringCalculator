@@ -4,7 +4,6 @@
     <list default="true" id="ca16a70c-5eab-4626-995b-92c05410fce4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/com/ihill/StringCalculatorImpl.java" afterPath="$PROJECT_DIR$/src/com/ihill/StringCalculatorImpl.java" />
-      <change beforePath="$PROJECT_DIR$/test/com/ihill/StringCalculatorTest.java" afterPath="$PROJECT_DIR$/test/com/ihill/StringCalculatorTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,7 +25,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringCalculatorImpl.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="StringCalculatorImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/ihill/StringCalculatorImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -36,7 +35,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringCalculatorTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StringCalculatorTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/ihill/StringCalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
@@ -299,7 +298,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1516979045998</updated>
-      <workItem from="1516979047580" duration="2559000" />
+      <workItem from="1516979047580" duration="2616000" />
     </task>
     <task id="LOCAL-00001" summary="+ Added test for empty String input">
       <created>1517246119343</created>
@@ -315,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517249256846</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="+ Added tests for single numbers, making sure that numbers with multiple digits work">
+      <created>1517330214256</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1517330214257</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -348,7 +354,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2559000" />
+    <option name="totallyTimeSpent" value="2616000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1059" height="873" extended-state="0" />
@@ -392,7 +398,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="+ Added test for empty String input" />
     <MESSAGE value="+ Added implementation for empty string test&#10;&#10;Struggling to find a good base case for the empty string at this stage in the code. Can negatives be a valid return value?&#10;Will invert the if for the next iteration and return 0 in an else statement." />
-    <option name="LAST_COMMIT_MESSAGE" value="+ Added implementation for empty string test&#10;&#10;Struggling to find a good base case for the empty string at this stage in the code. Can negatives be a valid return value?&#10;Will invert the if for the next iteration and return 0 in an else statement." />
+    <MESSAGE value="+ Added tests for single numbers, making sure that numbers with multiple digits work" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ Added tests for single numbers, making sure that numbers with multiple digits work" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -415,18 +422,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ihill/StringCalculatorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/com/ihill/StringCalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="41" lean-forward="false" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ihill/StringCalculatorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
           <folding />
         </state>
       </provider>

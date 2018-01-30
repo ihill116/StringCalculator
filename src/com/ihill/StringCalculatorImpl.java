@@ -6,9 +6,10 @@ package com.ihill;
 public class StringCalculatorImpl implements StringCalculator {
     @Override
     public int add(String numbers) {
-        if(numbers.isEmpty()) {
-            return 0;
+        int total=0;
+        if(!numbers.isEmpty()) {
+            total+=Integer.parseInt(numbers);
         }
-        return -1;
+        return total;
     }
 }
